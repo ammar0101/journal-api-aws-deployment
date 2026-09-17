@@ -48,11 +48,11 @@ EC2 sits in the public subnet and is the only thing reachable from the internet,
 
 ## Security notes
 
-- No user authentication or data isolation is implemented — this deployment is for coursework/demo purposes only; do not store real personal or sensitive journal content.
+- No user authentication or data isolation is implemented — this deployment is for demo purposes only; do not store real personal or sensitive journal content.
 - Credentials live only in a local `.env` file on the instance, excluded from version control.
 - Database access is scoped to the application tier's security group, not any CIDR range.
 - No inbound SSH/RDP; all admin access is IAM-authenticated via SSM.
 
 ## Related
 
-- Application source: [Journal API repository](#)
+- Application source: [journal-api](https://github.com/ammar0101/journal-startr)
