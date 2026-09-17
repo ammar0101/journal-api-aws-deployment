@@ -55,4 +55,4 @@ EC2 sits in the public subnet and is the only thing reachable from the internet,
 
 ## Related
 
-- Application source: [journal-api](https://github.com/ammar0101/journal-startr)
+- Application source: [journal-api](https://github.com/ammar0101/journal-starter)
